@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TeamProjekt</string>
+    <string name="uebungsbeispiele">Übungsbeispiele</string>
+    <string name="uebung_1">Übung 1</string>
+    <string name="uebung_2">Übung 2</string>
+    <string name="uebung_3">Übung 3</string>
+    <string name="uebung_4">Übung 4</string>
 </resources>
