@@ -1,4 +1,4 @@
-package at.wifi.swdev.teamprojekt;
+package at.wifi.swdev.teamprojekt.uebung4;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import at.wifi.swdev.teamprojekt.R;
 
 public class Square2Activity extends AppCompatActivity {
     String zahl;

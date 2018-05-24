@@ -27,6 +27,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="30dp"
         android:text="@string/uebung_1"
+        android:onClick="startUe1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -39,6 +40,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="60dp"
         android:text="@string/uebung_2"
+        android:onClick="startUe2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonUE1" />

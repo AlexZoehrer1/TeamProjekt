@@ -16,9 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".SquareActivity" />
-        <activity android:name=".Square2Activity"></activity>
+        <activity android:name=".uebung2.SecondActivity" />
+        <activity android:name=".uebung4.SquareActivity" />
+        <activity android:name=".uebung4.Square2Activity" />
+        <activity android:name=".uebung1.WifiActivity" />
+        <activity android:name=".uebung2.ThirdActivity"></activity>
     </application>
 
 </manifest>

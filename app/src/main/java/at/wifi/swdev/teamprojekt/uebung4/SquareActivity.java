@@ -1,12 +1,15 @@
-package at.wifi.swdev.teamprojekt;
+package at.wifi.swdev.teamprojekt.uebung4;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
+
+import at.wifi.swdev.teamprojekt.MainActivity;
+import at.wifi.swdev.teamprojekt.R;
+import at.wifi.swdev.teamprojekt.uebung4.Square2Activity;
 
 public class SquareActivity extends AppCompatActivity {
     String ergebnis;
@@ -35,5 +38,10 @@ public class SquareActivity extends AppCompatActivity {
             }
         }
 
+    }
+
+    public void zurückMain(View view) {
+        Intent intent =new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
