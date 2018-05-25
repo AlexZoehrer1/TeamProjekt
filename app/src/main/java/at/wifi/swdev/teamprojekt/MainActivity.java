@@ -7,6 +7,7 @@ import android.view.View;
 
 import at.wifi.swdev.teamprojekt.uebung1.WifiActivity;
 import at.wifi.swdev.teamprojekt.uebung2.SecondActivity;
+import at.wifi.swdev.teamprojekt.uebung3.SendBroadcastActivity;
 import at.wifi.swdev.teamprojekt.uebung4.SquareActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void startUe2(View view) {
         Intent intent =new Intent(this,SecondActivity.class);
+        startActivity(intent);
+    }
+
+    public void startUe3(View view) {
+        Intent intent = new Intent(this, SendBroadcastActivity.class);
         startActivity(intent);
     }
 }

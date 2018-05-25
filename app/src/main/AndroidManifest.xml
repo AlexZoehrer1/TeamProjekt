@@ -20,7 +20,17 @@
         <activity android:name=".uebung4.SquareActivity" />
         <activity android:name=".uebung4.Square2Activity" />
         <activity android:name=".uebung1.WifiActivity" />
-        <activity android:name=".uebung2.ThirdActivity"></activity>
+        <activity android:name=".uebung2.ThirdActivity" />
+        <activity android:name=".uebung3.SendBroadcastActivity" />
+
+        <receiver
+            android:name=".uebung3.Receiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="at.wifi.swdev.teamprojekt.uebung3"></action>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
