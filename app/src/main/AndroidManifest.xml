@@ -16,7 +16,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".uebung2.SecondActivity" />
+        <activity android:name=".uebung4.SquareActivity" />
+        <activity android:name=".uebung4.Square2Activity" />
+        <activity android:name=".uebung1.WifiActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="http"/>
+                <data android:host="www.stmk.wifi.at"/>
+                <!--android:host="stmk.wifi.at"-->
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".uebung2.ThirdActivity" />
+        <activity android:name=".uebung3.SendBroadcastActivity" />
+
+        <receiver
+            android:name=".uebung3.Receiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="at.wifi.swdev.teamprojekt.uebung3"></action>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
